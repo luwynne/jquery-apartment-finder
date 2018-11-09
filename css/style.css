@@ -1,0 +1,176 @@
+body{
+  font-family: Georgia, serif!important;
+}
+
+.animated{
+height: 10vh;
+}
+
+h1{
+  text-align: center;
+
+}
+
+.apartment-information{
+  height: 50vh;
+	transition: all 1s ease;
+  z-index: 1;
+
+}
+
+.notActive{
+  transition: all 1s ease;
+  display: none;
+}
+
+.active{
+  transition: all 1s ease;
+  display:block!important;
+}
+
+.span-active{
+   font-weight: bold;
+}
+
+
+.specification{
+  width: 100%;
+  background-color:rgba(134,106,173,1);
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  transition: 0.4s;
+}
+
+.specification:hover{
+  background-color:rgba(134,106,173,0.8);
+}
+
+.img-floorplan{
+  text-align: center;
+}
+
+h3{
+  color:#866aad!important;
+}
+
+.table{
+  margin-top: 40px;
+}
+
+.table td, .table th {
+    border-top: none!important;
+
+}
+
+.table tr{
+  border-bottom:1px solid #dee2e6!important;
+}
+
+.td-measure{
+  float: right;
+  color: #979797;
+}
+
+.td-apt{
+  color: #866aad;
+}
+
+.img-floorplan img{
+  min-height: 500px;
+}
+
+.row-header{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #866aad;
+}
+
+.row-header span{
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.row-header span:hover{
+  opacity: 0.8;
+}
+
+.register {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #c9dd03;
+    border: 2px solid #c9dd03;
+    color: #000;
+    text-transform: uppercase;
+    width: auto;
+    letter-spacing: 0px !important;
+    display: inline-block !important;
+    font-size: 15px !important;
+    padding: 8px 20px !important;
+    font-weight: 400 !important;
+    margin: 10px auto 10px auto !important;
+    transition: 0.4s;
+}
+
+a.register:hover, a.register:active, a.register:focus {
+    background-color: #fff;
+    text-decoration: none;
+    color: #007b69;
+}
+
+.b{
+  fill: white;
+  -webkit-transition: all 0.3s; /* Safari */
+    transition: all 0.2s;
+}
+
+.b:hover{
+  fill:#866aad;
+}
+
+.c, .d{
+  pointer-events: none;
+}
+
+.svg-active{
+  fill:#866aad!important;
+  font-weight: bold;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .table-holder {
+    padding-left: 70px!important;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .table-holder {
+    margin-top: 50px!important;
+  }
+  #apt-specification-list-mobile {
+    padding-left: 37px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .register {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .row-header span {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .row-header span {
+    font-size: 33px;
+  }
+}
+
+/* animations */
